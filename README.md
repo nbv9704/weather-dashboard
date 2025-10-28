@@ -67,31 +67,22 @@ npm run build
 3. Copy API key từ dashboard
 4. Dán vào file `.env`
 
-## 📁 Cấu Trúc Dự Án
+## 📸 Ảnh Chụp Màn Hình
 
-```
-src/
-├── components/          # React components
-│   ├── Header.tsx      # Header với dark mode toggle
-│   ├── SearchBar.tsx   # Tìm kiếm và geolocation
-│   ├── CurrentWeather.tsx    # Thông tin thời tiết hiện tại
-│   ├── WeatherStats.tsx      # 4 stats (humidity, wind...)
-│   ├── HourlyChart.tsx       # Biểu đồ 24 giờ
-│   ├── DailyForecast.tsx     # Dự báo 7 ngày
-│   └── LoadingSpinner.tsx    # Loading animation
-├── hooks/              # Custom hooks
-│   ├── useWeather.ts   # Hook quản lý weather data
-│   ├── useGeolocation.ts     # Hook lấy GPS location
-│   ├── useTheme.ts     # Hook quản lý dark mode
-│   └── useLocalStorage.ts    # Hook lưu trữ local
-├── services/           # API services
-│   └── weatherApi.ts   # WeatherAPI.com integration
-├── types/              # TypeScript types
-│   └── weather.ts      # Weather data interfaces
-├── utils/              # Utility functions
-│   └── formatters.ts   # Format temp, date, time
-└── App.tsx             # Main app component
-```
+### Light Mode
+![Light Mode](screenshots/light-mode.png)
+
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+### Current Weather
+![Current Weather](screenshots/current-weather.png)
+
+### 24-Hour Temperature
+![24-Hour Temperature](screenshots/24-hour-temperature.png)
+
+### 7-Day Forecast
+![7-Day Forecast](screenshots/7-day-forecast.png)
 
 ## 🎯 Kiến Thức Đạt Được
 
