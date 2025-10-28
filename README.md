@@ -151,23 +151,6 @@ src/
 - [ ] PWA support (offline mode)
 - [ ] Share weather trên social media
 
-## 🚀 Deploy
-
-### Vercel (Khuyên dùng)
-
-1. Push code lên GitHub
-2. Import project vào Vercel
-3. Thêm environment variable: `VITE_WEATHER_API_KEY`
-4. Deploy!
-
-### Netlify
-
-```bash
-npm run build
-# Upload folder dist/ lên Netlify
-# Thêm env variable trong Settings
-```
-
 ## 👨‍💻 Tác Giả
 
 **Ngô Bảo Việt**
@@ -183,21 +166,4 @@ Dự án này là mã nguồn mở và có sẵn theo [Giấy phép MIT](LICENSE
 
 ## 🌟 Đóng Góp
 
-Mọi đóng góp đều được chào đón! Vui lòng:
-
-1. Fork dự án
-2. Tạo branch mới (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Mở Pull Request
-
-## 🙏 Cảm Ơn
-
-- [WeatherAPI.com](https://www.weatherapi.com) - Cung cấp API miễn phí
-- [Recharts](https://recharts.org) - Thư viện biểu đồ tuyệt vời
-- [Lucide](https://lucide.dev) - Bộ icon đẹp
-- [Tailwind CSS](https://tailwindcss.com) - CSS framework
-
----
-
-⭐ **Nếu bạn thấy dự án hữu ích, hãy cho một star nhé!** ⭐
+Mọi đóng góp đều được chào đón! Vui lòng tạo Pull Request hoặc mở Issue nếu bạn có ý tưởng cải thiện.
