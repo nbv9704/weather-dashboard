@@ -84,6 +84,12 @@ npm run build
 ### 7-Day Forecast
 ![7-Day Forecast](screenshots/7-day-forecast.png)
 
+### City Search
+![City Search](screenshots/city-search.gif)
+
+### Current Location
+![Current Location](screenshots/current-location.gif)
+
 ## 🎯 Kiến Thức Đạt Được
 
 ### 1. API Integration
